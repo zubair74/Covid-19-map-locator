@@ -1,0 +1,99 @@
+#search-container {
+    background-color: #454E53;
+    height: 53px;
+    left: 30px;
+    top: 170px;
+    position: absolute;
+    z-index: 100;
+    width: 168px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+
+#store {
+    width: 363px;
+    font-weight: bold;
+    left: 40px;
+    position: absolute;
+    z-index: 100;
+    font-size: 26px;
+    top: 100px;
+}
+
+#zip-code-input {
+    margin-left: 12px;
+    background-color: transparent;
+    border-color: #454E53;
+    color: white;
+    border: none;
+    font-size: 14px;
+}
+
+#search-container {
+    background-color: #454E53;
+    height: 53px;
+    left: 30px;
+    top: 170px;
+    position: absolute;
+    z-index: 100;
+    width: 200px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+
+
+#mapid {
+    height: 115%;
+    width: 114%;
+    position: relative;
+    z-index: 30;
+}
+
+
+.store-container {
+    font-family: 'Comic Neue', cursive;
+    width: 108px;
+    font-weight: bold;
+    border-bottom: 1px solid #454E53;
+    font-size: 14px;
+    padding: 0px;
+    margin-bottom: 2px;
+    transition: width 0.1s;
+}
+
+.store-number {
+    margin-top: -27px;
+    margin-left: 114px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid black; */
+    width: -21px;
+    height: 25px;
+    border-radius: 20px;
+    background-color: #454E53;
+    color: white;
+    margin-bottom: 20px;
+    width: 25px;
+}
+
+.fa-search:before {
+    color: white;
+    content: "\f002";
+    margin-left: 4px;
+}
+
+.stores-list-container {
+    border-radius: 20px;
+    position: absolute;
+    /* border: 2px solid black; */
+    z-index: 100;
+    width: 202px;
+    height: 263px;
+    margin-top: 246px;
+    margin-left: 29px;
+    background-color: #f1f1f1;
+    overflow-y: scroll;
+}

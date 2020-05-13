@@ -1,0 +1,166 @@
+body{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    
+}
+
+#mapid{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    z-index: 30;
+}
+
+#store{
+    width: 445px;
+    font-weight: bold;
+    left: 169px;
+    position: absolute;
+    z-index: 100;
+    font-size: 45px;
+    top: 100px;
+}
+
+#search-container{
+    background-color: #454E53;
+    height: 55px;
+    left: 167px;
+    top: 170px;
+    position: absolute;
+    z-index: 100;
+    width: 358px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+
+#zip-code-input{
+    margin-left: 26px;
+    background-color: transparent;
+    border-color: #454E53;
+    color: white;
+    border: none;
+    font-size: 18px;
+}
+
+.fa-search:before {
+    color: white;
+    content: "\f002";
+    margin-left: 80px;
+}
+
+.stores-list-container{
+    border-radius: 20px;
+    position: absolute;
+    /* border: 2px solid black; */
+    z-index: 100;
+    width: 350px;
+    height: 430px;
+    margin-top: 246px;
+    margin-left: 169px;
+    background-color: #f1f1f1;
+    overflow-y: scroll;
+}
+
+.store-container{
+    margin-left: 34px;
+    width: 230px;
+    border-bottom: 2px solid black;
+    margin-top: 29px;
+    height: 76px;
+}
+
+.store-number{
+    margin-top: -44px;
+    margin-left: 238px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid black; */
+    width: 25px;
+    height: 25px;
+    border-radius: 20px;
+    background-color: #454E53;
+    color: white;
+    margin-bottom: 20px;
+
+
+}
+
+.store-phone-number{
+    color: cadetblue;
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+.store-info{
+    width: 170px;
+    height: 118px;
+}
+
+.store-info-name{
+    margin-bottom: 4px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.store-info-timing{
+    font-size: 12px;
+    margin-bottom: 4px;
+    border-bottom: 1px solid #00000029;
+}
+
+.store-info-address{
+    display: flex;
+    margin-bottom: 3px;
+    font-size: 12px;
+    font-weight: bold;
+
+}
+
+.store-info-phoneNumber{
+    display: flex;
+    font-size: 12px;
+    font-weight: bold;
+
+}
+
+.hello{
+    margin-right: 10px;
+
+}
+
+.store-container{
+    font-family: 'Comic Neue', cursive;
+    width: 264px;
+    font-weight: bold;
+    border-bottom: 1px solid #454E53;
+    font-size: 17px;
+    padding: 6px;
+    margin-bottom: 10px;
+    transition: width 0.1s;
+}
+
+
+.stores-list{
+    cursor: pointer;
+    background-color: #f1f1f1;
+
+}
+.store-container:hover{
+    background-color: #ccc;
+    border-radius: 10px;
+    /* border: 1px solid #454E53; */
+    /* width: 230px; */
+    
+
+}
+
+#myicon{
+    display: contents;
+}
+
+.store-number-container{
+    margin-left: -2px;
+}
